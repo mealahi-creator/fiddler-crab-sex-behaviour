@@ -2,7 +2,7 @@
 
 Code and data to reproduce every table, figure and statistic in:
 
-> Tina, F. W., Mohamed, M. H., Sukkuea, A., Samuel, O. W., & Alahi, M. E. E. *Video-Based Deep Learning for Sex and Behaviour Classification of the Fiddler Crab Austruca perplexa.* Journal of Human, Earth, and Future (under review).
+> Tina, F. W., Mohamed, M. H., Sukkuea, A., Samuel, O. W., & Alahi, M. E. E. *Video-Based Deep Learning for Sex and Behaviour Classification of the Fiddler Crab Austruca perplexa.* (under review).
 
 All results in the paper are computed from the **saved per-sequence predictions** of each model in `data/predictions/`. Re-running the analysis takes about 30 seconds on a laptop or in Google Colab, needs no GPU and no video data, and ends with an automatic check against the values printed in the manuscript.
 
@@ -66,7 +66,7 @@ original_code/                 Colab code used to process the videos, train the 
 
 ## Data not included in this repository
 
-The extracted video sequences (grayscale frames), the external clips, the trained model weights and the raw field videos are too large for GitHub. They are archived at Zenodo: **DOI to be added**. With them, the full pipeline in `original_code/` can be re-run from the videos.
+The video recordings, the extracted video sequences (frames), the external clips and the trained model weights are not publicly released. They are available from the corresponding author on reasonable request. They are not needed to reproduce the results: every table, figure and statistic in the paper is computed from the per-sequence predictions, tracking logs and image features included here.
 
 ## Licence
 
