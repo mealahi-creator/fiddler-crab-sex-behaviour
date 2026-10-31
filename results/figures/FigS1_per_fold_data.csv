@@ -1,0 +1,46 @@
+panel,model,fold,balanced_accuracy
+A  Activity,R3D-18,1,86.54970760233918
+A  Activity,R3D-18,2,88.05555555555556
+A  Activity,R3D-18,3,95.97953216374269
+A  Activity,R3D-18,4,85.94594594594595
+A  Activity,R3D-18,5,95.97953216374269
+A  Activity,EfficientNet-B0 + BiLSTM,1,86.11111111111111
+A  Activity,EfficientNet-B0 + BiLSTM,2,80.83333333333333
+A  Activity,EfficientNet-B0 + BiLSTM,3,89.03508771929825
+A  Activity,EfficientNet-B0 + BiLSTM,4,82.83783783783785
+A  Activity,EfficientNet-B0 + BiLSTM,5,72.6608187134503
+A  Activity,Two-stream,1,73.68421052631578
+A  Activity,Two-stream,2,80.27777777777779
+A  Activity,Two-stream,3,83.91812865497076
+A  Activity,Two-stream,4,76.8918918918919
+A  Activity,Two-stream,5,90.5701754385965
+A  Activity,Two-stream (res. aug.),1,64.40058479532163
+A  Activity,Two-stream (res. aug.),2,80.55555555555556
+A  Activity,Two-stream (res. aug.),3,75.87719298245614
+A  Activity,Two-stream (res. aug.),4,79.39189189189189
+A  Activity,Two-stream (res. aug.),5,87.79239766081872
+B  Sex (all sequences),DINOv2 + LR,1,98.57142857142858
+B  Sex (all sequences),DINOv2 + LR,2,100.0
+B  Sex (all sequences),DINOv2 + LR,3,92.85714285714286
+B  Sex (all sequences),DINOv2 + LR,4,92.46031746031747
+B  Sex (all sequences),DINOv2 + LR,5,90.35714285714285
+B  Sex (all sequences),EfficientNet-B0 + BiLSTM,1,92.5
+B  Sex (all sequences),EfficientNet-B0 + BiLSTM,2,88.33333333333333
+B  Sex (all sequences),EfficientNet-B0 + BiLSTM,3,97.5
+B  Sex (all sequences),EfficientNet-B0 + BiLSTM,4,100.0
+B  Sex (all sequences),EfficientNet-B0 + BiLSTM,5,80.0
+B  Sex (all sequences),R3D-18,1,89.28571428571428
+B  Sex (all sequences),R3D-18,2,86.94444444444444
+B  Sex (all sequences),R3D-18,3,95.71428571428571
+B  Sex (all sequences),R3D-18,4,92.06349206349206
+B  Sex (all sequences),R3D-18,5,93.21428571428572
+B  Sex (all sequences),Two-stream (res. aug.),1,73.21428571428572
+B  Sex (all sequences),Two-stream (res. aug.),2,78.33333333333333
+B  Sex (all sequences),Two-stream (res. aug.),3,73.21428571428572
+B  Sex (all sequences),Two-stream (res. aug.),4,56.94444444444444
+B  Sex (all sequences),Two-stream (res. aug.),5,70.35714285714285
+B  Sex (all sequences),Two-stream,1,72.14285714285714
+B  Sex (all sequences),Two-stream,2,71.94444444444444
+B  Sex (all sequences),Two-stream,3,66.78571428571428
+B  Sex (all sequences),Two-stream,4,60.71428571428572
+B  Sex (all sequences),Two-stream,5,69.28571428571428

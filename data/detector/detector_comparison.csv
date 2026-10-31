@@ -1,0 +1,4 @@
+detector,mAP50_pct,precision_pct,recall_pct,note
+YOLOv11,97.4,95.4,92.0,selected
+Roboflow 3.0 Object Detection,97.3,95.2,91.8,
+RF-DETR,95.3,94.2,94.0,

@@ -1,0 +1,21 @@
+{
+  "written_utc": "2026-10-08T17:09:42",
+  "lock_utc": "2026-10-05T08:19:44",
+  "sets": {
+    "A_all": 71,
+    "B_blindQC": 69
+  },
+  "excluded_B": [
+    "MVI_0877_MaleID6_Feeding079",
+    "MVI_0886_FemaleID23_Feeding093"
+  ],
+  "class_counts_A": {
+    "female_feeding": 35,
+    "male_feeding": 33,
+    "male_waving": 3
+  },
+  "n_videos": 55,
+  "thresholds": 0.5,
+  "preprocessing": "Video_Preprocessing_Script unchanged; model input 24 evenly spaced frames, resize 224",
+  "metrics": "acc, balanced acc, per-class recall, majority baseline, AUC, video-bootstrap 95% CI (2000, seed 0)"
+}

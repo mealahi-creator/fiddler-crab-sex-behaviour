@@ -1,0 +1,64 @@
+panel,model,fpr,tpr
+activity,R3D-18,0.0,0.0
+activity,R3D-18,0.012195121951219513,0.0
+activity,R3D-18,0.012195121951219513,0.125
+activity,R3D-18,0.024390243902439025,0.125
+activity,R3D-18,0.024390243902439025,0.25
+activity,R3D-18,0.13414634146341464,0.25
+activity,R3D-18,0.13414634146341464,0.375
+activity,R3D-18,0.18292682926829268,0.375
+activity,R3D-18,0.18292682926829268,0.5
+activity,R3D-18,0.2073170731707317,0.5
+activity,R3D-18,0.2073170731707317,0.625
+activity,R3D-18,0.23170731707317074,0.625
+activity,R3D-18,0.23170731707317074,0.75
+activity,R3D-18,0.2682926829268293,0.75
+activity,R3D-18,0.2682926829268293,0.875
+activity,R3D-18,0.32926829268292684,0.875
+activity,R3D-18,0.32926829268292684,1.0
+activity,R3D-18,1.0,1.0
+activity,Two-stream (res. aug.),0.0,0.0
+activity,Two-stream (res. aug.),0.012195121951219513,0.0
+activity,Two-stream (res. aug.),0.012195121951219513,0.375
+activity,Two-stream (res. aug.),0.04878048780487805,0.375
+activity,Two-stream (res. aug.),0.04878048780487805,0.5
+activity,Two-stream (res. aug.),0.21951219512195122,0.5
+activity,Two-stream (res. aug.),0.21951219512195122,0.625
+activity,Two-stream (res. aug.),0.25609756097560976,0.625
+activity,Two-stream (res. aug.),0.25609756097560976,0.75
+activity,Two-stream (res. aug.),0.34146341463414637,0.75
+activity,Two-stream (res. aug.),0.34146341463414637,0.875
+activity,Two-stream (res. aug.),0.5975609756097561,0.875
+activity,Two-stream (res. aug.),0.5975609756097561,1.0
+activity,Two-stream (res. aug.),1.0,1.0
+activity,Two-stream,0.0,0.0
+activity,Two-stream,0.012195121951219513,0.0
+activity,Two-stream,0.012195121951219513,0.125
+activity,Two-stream,0.024390243902439025,0.125
+activity,Two-stream,0.024390243902439025,0.375
+activity,Two-stream,0.12195121951219512,0.375
+activity,Two-stream,0.12195121951219512,0.5
+activity,Two-stream,0.5,0.5
+activity,Two-stream,0.5,0.625
+activity,Two-stream,0.6341463414634146,0.625
+activity,Two-stream,0.6341463414634146,0.75
+activity,Two-stream,1.0,0.75
+activity,Two-stream,1.0,1.0
+sex all clips,DINOv2 + LR,0.0,0.0
+sex all clips,DINOv2 + LR,0.0,0.02
+sex all clips,DINOv2 + LR,0.0,0.76
+sex all clips,DINOv2 + LR,0.025,0.76
+sex all clips,DINOv2 + LR,0.025,0.84
+sex all clips,DINOv2 + LR,0.05,0.84
+sex all clips,DINOv2 + LR,0.05,0.98
+sex all clips,DINOv2 + LR,0.425,0.98
+sex all clips,DINOv2 + LR,0.425,1.0
+sex all clips,DINOv2 + LR,1.0,1.0
+sex feeding only,DINOv2 + LR,0.0,0.0
+sex feeding only,DINOv2 + LR,0.0,0.023809523809523808
+sex feeding only,DINOv2 + LR,0.0,0.8095238095238095
+sex feeding only,DINOv2 + LR,0.025,0.8095238095238095
+sex feeding only,DINOv2 + LR,0.025,0.9047619047619048
+sex feeding only,DINOv2 + LR,0.05,0.9047619047619048
+sex feeding only,DINOv2 + LR,0.05,1.0
+sex feeding only,DINOv2 + LR,1.0,1.0

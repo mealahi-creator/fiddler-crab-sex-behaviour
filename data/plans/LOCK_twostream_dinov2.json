@@ -1,0 +1,39 @@
+{
+  "locked_at_utc": "2026-10-05T08:19:44",
+  "n_training_sequences": 278,
+  "activity": {
+    "primary": "aug",
+    "secondary": "noaug",
+    "seeds": [
+      1,
+      2
+    ],
+    "epochs": {
+      "aug": 34,
+      "noaug": 32
+    },
+    "decision": "mean p_waving over seeds; waving if > 0.5",
+    "seq_len": 24,
+    "size": [
+      224,
+      224
+    ]
+  },
+  "sex": {
+    "backbone": "dinov2_vits14 (frozen)",
+    "crop": "full, resize 224",
+    "frames": 8,
+    "classifier": "StandardScaler + LogisticRegression(C=0.1, balanced)",
+    "trained_on": "feeding only",
+    "n_train": 181,
+    "decision": "mean p_male over 8 frames; male if > 0.5"
+  },
+  "sha256": {
+    "activity_aug_seed1.keras": "5bf4376b5f783e817a9951dc5a2d1ed40610913e1797a6383b371c7804948fb8",
+    "activity_aug_seed2.keras": "e96b88e5f8b4b104ce90793aaabdcc9fe5c0738e9f472281b5271b7ec76d77e2",
+    "activity_noaug_seed1.keras": "add75cb9630186a77409e20f650b22a9ee562a3ad37f2d293cc7bfd1bd21bb36",
+    "activity_noaug_seed2.keras": "f93a9833cf459104056051dff048900301e1e2fea30c78ce8cc9678f955a1ae1",
+    "sex_dinov2_vits14_backbone.pt": "77a00278307ae617a0d0d33f46aac94a7bd6bd9868b1bab0773d64f5af1af3ab",
+    "sex_logreg.joblib": "39ca427eb93b0637921af7045e893f4d501c48e8777d54a00b9cc03921be49cd"
+  }
+}

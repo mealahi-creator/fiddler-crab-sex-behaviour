@@ -1,0 +1,5 @@
+index,pred_Female,pred_Male,panel,pred_Feeding,pred_Waving
+true_Female,29.0,3.0,A,,
+true_Male,3.0,29.0,A,,
+true_Feeding,,,B,0.0,58.0
+true_Waving,,,B,0.0,6.0

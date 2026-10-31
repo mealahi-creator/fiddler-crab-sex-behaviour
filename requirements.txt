@@ -1,0 +1,7 @@
+# analysis only (scripts/ and run_all.py); tested with Python 3.11-3.13
+numpy>=1.24
+pandas>=2.0
+scipy>=1.9
+scikit-learn>=1.2
+matplotlib>=3.7
+tabulate>=0.9

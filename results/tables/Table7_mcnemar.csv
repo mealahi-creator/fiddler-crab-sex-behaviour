@@ -1,0 +1,10 @@
+task,family,model_a,model_b,n,a_only,b_only,correct_a,correct_b,p,p_holm
+Activity,activity,R3D-18,Two-stream (res. aug.),278,41,12,253,224,8.171334999262925e-05,0.000326853399970517
+Activity,activity,R3D-18,Two-stream,278,32,11,253,232,0.001913961001264397,0.005741883003793191
+Activity,activity,R3D-18,EfficientNet-B0 + BiLSTM,278,46,13,253,220,1.9167786796225883e-05,9.583893398112941e-05
+Activity,activity,EfficientNet-B0 + BiLSTM,Two-stream (res. aug.),278,44,48,220,224,0.754651749610499,0.754651749610499
+Activity,activity,Two-stream (res. aug.),Two-stream,278,8,16,224,232,0.15158963203430176,0.3031792640686035
+"Sex, feeding only",sex,DINOv2 + LR,R3D-18,181,19,6,173,160,0.01463329792022705,0.04389989376068115
+"Sex, feeding only",sex,DINOv2 + LR,EfficientNet-B0 + BiLSTM,181,17,7,173,163,0.06391465663909912,0.12782931327819824
+"Sex, feeding only",sex,DINOv2 + LR,Two-stream (res. aug.),181,64,4,173,113,5.873990530091966e-15,2.3495962120367864e-14
+"Sex, all",sex,DINOv2 + LR,R3D-18,278,22,13,262,253,0.175465248990804,0.175465248990804

@@ -1,0 +1,3 @@
+set,sequences,frames,"detected directly, %","extrapolated, %","last box reused, %",mean confidence (direct detections),"single track identity, %",mean identities per sequence
+Training sequences used in the study,277,8653,90.0,5.9,4.1,0.82,83.0,1.2
+External clips (E1 + E2),90,5417,72.8,13.1,14.1,0.8,88.9,1.12

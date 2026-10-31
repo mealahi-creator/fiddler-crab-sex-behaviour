@@ -1,0 +1,38 @@
+{
+  "locked_utc": "2026-10-09T06:32:44 UTC",
+  "purpose": "Pre-declared primary ACTIVITY model for external set v3 (EXTERNAL_V2_PLAN.md, Amendment 2)",
+  "files": {
+    "activity_r3d18_seed1.pt": {
+      "sha256": "65201d0d8f55e7495b0dc2369ae75afe36b328cafcc68d35085e80bfe02bcdd4",
+      "epochs": 21,
+      "val_bal_fold0": 0.9647,
+      "train_bal_activity": 1.0,
+      "minutes": 22.6
+    },
+    "activity_r3d18_seed2.pt": {
+      "sha256": "6078f140063f21602931ad53c513bf9903f5188503d37ab88e1ac861c2f6f75b",
+      "epochs": 8,
+      "val_bal_fold0": 0.9269,
+      "train_bal_activity": 1.0,
+      "minutes": 11.0
+    }
+  },
+  "folder": "/content/drive/MyDrive/Crab_Final_October/r3d18_locked/",
+  "n_train_sequences": 278,
+  "architecture": "torchvision r3d_18 (Kinetics-400 init), fc=Identity, Dropout 0.5, heads act=Linear(512,2), sex=Linear(512,2)",
+  "preprocessing": "24 evenly spaced frames; RGB; resize 224x224; /255; Kinetics mean/std; trilinear resize to 24x112x112",
+  "decision": "mean softmax p(waving) over the 2 seeds; waving if > 0.5",
+  "sex_head_note": "sex head is NOT used; sex model stays DINOv2 + logistic regression (LOCK.json)",
+  "training": {
+    "optimizer": "AdamW",
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "batch": 4,
+    "fp16": true,
+    "class_weighted_ce": true,
+    "augmentation": "h-flip p=0.5, brightness x U(0.8,1.2), per clip",
+    "epoch_rule": "early stopping (patience 8) on fold 0 with folds 1-4, then retrain on all data for that many epochs"
+  },
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130"
+}

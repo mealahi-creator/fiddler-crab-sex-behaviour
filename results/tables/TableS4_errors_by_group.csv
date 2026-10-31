@@ -1,0 +1,6 @@
+Model,Activity: female feeding wrong,Activity: male feeding wrong,Activity: male waving wrong,Sex: female feeding wrong,Sex: male feeding wrong,Sex: male waving wrong
+R3D-18,4,10,11,7,14,4
+EfficientNet-B0 + BiLSTM,15,36,7,15,3,0
+Two-stream,10,10,26,45,27,7
+Two-stream (res. aug.),11,12,31,33,35,12
+DINOv2 + LR,—,—,—,3,5,8
